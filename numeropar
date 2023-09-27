@@ -1,0 +1,33 @@
+/*;
+* Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.numerparif;
+import java.util.Scanner;
+
+/**
+ *
+ * @author medgon
+ */
+
+public class Numeroparif {
+
+   
+    public static void main(String[] args) {
+     Scanner ent=new Scanner(System.in);
+     
+     int Y, AQ, I;
+        System.out.println("Introduce el numero par");
+       N=ent.nextInt();
+       
+    if(Y % 4 == 0 ){    
+    System.out.println("numero Par");
+        }
+    else{
+    
+        System.out.println("numero Impar");
+    }
+    ent.close();
+    
+    
+    }}
