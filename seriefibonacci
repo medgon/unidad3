@@ -1,0 +1,26 @@
+java
+import java.util.Scanner;
+
+public class Fibonacci {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+int num, primero, segundo, i;
+do{
+        
+        System.out.print("Ingrese la cantidad de números Fibonacci que desea ver: ");
+        int n = scanner.nextInt();
+        
+        int primero = 0;
+        int segundo = 1;
+        
+        System.out.print("Serie Fibonacci de " + n + " números: ");
+        
+        for (int i = 0; i < n; i++) {
+            System.out.print(primero + " ");
+            
+            int siguiente = primero + segundo;
+            primero = segundo;
+            segundo = siguiente;
+        }
+    }
+}
